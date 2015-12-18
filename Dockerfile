@@ -11,3 +11,4 @@ RUN cd /tmp/build && mvn -q -DskipTests=true package \
         && mv target/*.war $CATALINA_HOME/webapps/ROOT.war \
         #«Â¿Ì±‡“Î∫€º£
         && cd / && rm -rf /tmp/build
+
